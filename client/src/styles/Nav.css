@@ -1,0 +1,95 @@
+
+a{
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+.containerNav{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.test1
+{
+    font-size:160%
+}
+.test2
+{
+    cursor:pointer;
+}
+
+
+.containerNav__left{
+    display: flex;
+    height: 100px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.containerNav__left div{
+    display: inline-block;
+}
+.containerNav__left p{
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#logoMyEvents{
+    background-image: url(../images/LogoMyEvents64.png);
+    width: 64px;
+    height: 64px;
+    vertical-align: center;
+}
+
+.containerNav__right{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerNav__right div{
+    margin-right: 30px;
+}
+
+#iconAccount{
+    background-image: url(../images/round-account-button-with-user-inside.png);
+    background-size: cover;
+    justify-content: right;
+    width: 32px;
+    height: 32px;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
+#iconLogout{
+    background-image: url(../images/logout.png);
+    background-size: cover;
+    justify-content: right;
+    width: 28px;
+    height: 28px;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
+#iconLogin{
+    background-image: url(../images/login.png);
+    background-size: cover;
+    justify-content: right;
+    width: 32px;
+    height: 32px;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
+.containerNav__right p{
+    text-align: center;
+    margin: 0;
+}

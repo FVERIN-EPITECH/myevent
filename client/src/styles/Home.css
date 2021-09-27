@@ -1,0 +1,23 @@
+.container__menuAgenda{
+    display:flex;
+    max-width:1000px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 870px) {
+    
+    .container__menuAgenda{
+        display: block;
+    }
+
+}
+
+.widthDiv
+{
+    width: 100%;
+}
+p
+{
+    margin: 0;
+}
